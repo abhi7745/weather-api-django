@@ -44,8 +44,7 @@ def index(request):
 
             else:
                 print("An error occurred")
-
-            return render(request,'index.html',{'static_city':city,'checker':'An error occurred'})
+                return render(request,'index.html',{'static_city':city,'checker':'An error occurred'})
 
 
 
